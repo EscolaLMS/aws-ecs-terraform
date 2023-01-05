@@ -43,7 +43,7 @@ variable "private_subnets_cidr" {
 
 variable "image_front" {
   type        = string
-  default = "escolalms/demo:0.0.35"  
+  default = "escolalms/demo:latest"  
 }
 
 variable "image_back" {
